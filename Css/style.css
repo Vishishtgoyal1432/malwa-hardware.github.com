@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+/* Header /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.head{
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: row;
+}
+#name{
+    position: relative;
+    top: 11px;
+    left: 94px;
+    font-size: 2rem;
+    font-family:monospace;
+    font-style: italic;
+    font-weight: bolder;
+    color: darkcyan;
+    font-size: 2.2rem;
+}
+#name:hover{
+    box-shadow: 1px 0px 31px 28px orangered;
+}
+#logo{
+    /* border: 2px solid greenyellow; */
+    /* display: ; */
+}
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+}
+#navbar ul {
+    display: flex;
+    /* padding: 10px; */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#navbar ul li {
+    margin: 10px;
+    text-decoration: none;
+    margin-left: 46px;
+    list-style: none;
+}
+#navbar ul li a {
+    color: aqua;
+}
+#navbar ul li a:hover {
+    color:lightcoral;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 2px 2px 15px 15px lightseagreen;
+}
+
+.head::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 108px;
+    width: 100%;
+    opacity: 1.5;
+    z-index: -1;
+}
+/* home\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#home{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    text-align: center;
+    justify-content: center;
+    height: 82vh;
+    width: 100vw;
+    color: crimson;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    background:url('/Project/Malwa hardware/img/item-5.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+    z-index: -1;
+}
+.context{
+    position: absolute;
+    top: 222px;
+    color: greenyellow;
+
+}
+#home p {
+    font-size: 1.5rem;
+}
+
+/* our clients  //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#our_clients{
+    /* border: 2px solid blue; */
+}
+.client{
+    position: relative;
+    top: 0px;
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    /* flex-direction: column; */
+    margin: 20px;
+    padding: 61px; 
+    position:relative;
+    left: 25px;
+
+}
+
+
+.clients_img{
+    display: flex;
+    height: 400px ;
+    width: 400px ;
+}
+/* brand's\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#brand{
+
+    /* border: 2px solid greenyellow; */
+    /* flex-direction: column; */
+}
+.brand_info{
+    /* display: inline-block; */
+
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+.brand_info img {
+    justify-content: center;
+    align-items: center;
+    height: 300px ;
+    width: 500px ;
+}
+/* ye\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#dye{
+    border: 2px solid red ;
+
+}
+#dye img{
+    height: 400px;
+}
+/* contact\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#contact{
+    /* border: 2px solid teal; */
+}
+#foambox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* utility ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+footer{
+    border: 1px double red;
+    position:relative   ;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+}
+.pre-h{
+ color:darkcyan;
+    font-size: 3rem;
+}
+
+.sec-2{
+    /* justify-content: center; */
+    font-size: 2rem;
+    text-align: center;
+}
